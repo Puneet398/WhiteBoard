@@ -105,66 +105,66 @@ database for CoSketch having below 3 documents and its respective structure ment
 - Users
 ```json
 {
-    "_id": {
-        "$oid": "661be3fab29b01e73b199d14"
-    },
-    "email": "veet2@gmail.com",
-    "username": "veet2124",
-    "password": "$2b$12$lNXnUpFuIyR42ZyxlQj9NOHqAGVMjlAE3gNjcqTQGwGLEdZYTVUk.",
-    "firstName": "Veet",
-    "role": "ADMIN",
-    "lastName": "Moradiya",
-    "createdAt": {
-        "$date": {
-            "$numberLong": "1713103843726"
-        }
-    },
+	"_id": {
+		"$oid": "661be3fab29b01e73b199d14"
+	},
+	"email": "veet2@gmail.com",
+	"username": "veet2124",
+	"password": "$2b$12$lNXnUpFuIyR42ZyxlQj9NOHqAGVMjlAE3gNjcqTQGwGLEdZYTVUk.",
+	"firstName": "Veet",
+	"role": "ADMIN",
+	"lastName": "Moradiya",
+	"createdAt": {
+		"$date": {
+			"$numberLong": "1713103843726"
+		}
+	},
 }
 ```
 
 - boards
 ```json
 {
-    "_id": {
-        "$oid": "663763bf42ff898ab7b92989"
-    },
-    "boardTitle": "Test Board Members API",
-    "boardDescription": "Test Board created via API with members",
-    "members": [ // array of members with role
-        {
-            "memberId": {
-                "$oid": "661bf4e5d6b91517e3136997"
-            },
-            "memberRole": "OWNER",
-            "lastAccessedAt": null,
-            "_id": {
-                "$oid": "663763bf42ff898ab7b9298a"
-            }
-        },
-    ],
-    "createdAt": {
-        "$date": {
-            "$numberLong": "1714906047611"
-        }
-    },
-    "updatedAt": {
-        "$date": {
-            "$numberLong": "1714906047611"
-        }
-    }
+	"_id": {
+		"$oid": "663763bf42ff898ab7b92989"
+	},
+	"boardTitle": "Test Board Members API",
+	"boardDescription": "Test Board created via API with members",
+	"members": [ // array of members with role
+		{
+			"memberId": {
+				"$oid": "661bf4e5d6b91517e3136997"
+			},
+			"memberRole": "OWNER",
+			"lastAccessedAt": null,
+			"_id": {
+				"$oid": "663763bf42ff898ab7b9298a"
+			}
+		},
+	],
+	"createdAt": {
+		"$date": {
+			"$numberLong": "1714906047611"
+		}
+	},
+	"updatedAt": {
+		"$date": {
+			"$numberLong": "1714906047611"
+		}
+	}
 }
 ```
 
 - boardcontents
 ```json
 {
-    "_id": {
-        "$oid": "663a551d81b106ac6e38ea45"
-    },
-    "boardId": {
-        "$oid": "6626a1062377ee6823c8a12d"
-    },
-    "boardElements": [] // array of board elements
+	"_id": {
+		"$oid": "663a551d81b106ac6e38ea45"
+	},
+	"boardId": {
+		"$oid": "6626a1062377ee6823c8a12d"
+	},
+	"boardElements": [] // array of board elements
 }
 ```
 
@@ -253,3 +253,5 @@ database for CoSketch having below 3 documents and its respective structure ment
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
+## Video
+[Watch demo on youtube](https://youtu.be/TMMNbH83FuU?si=RDMJBNZJJpEZYxYp)
